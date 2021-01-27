@@ -7,7 +7,7 @@ version = v"1.9.0"
 
 # Collection of sources required to complete build
 sources = [
-    ArchiveSource("https://github.com/openucx/ucx/releases/download/v1.9.0/ucx-1.9.0.tar.gz",
+    ArchiveSource("https://github.com/openucx/ucx/releases/download/v$(version)/ucx-$(version).tar.gz",
                   "a7a2c8841dc0d5444088a4373dc9b9cc68dbffcd917c1eba92ca8ed8e5e635fb"),
 ]
 
